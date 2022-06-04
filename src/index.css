@@ -1,0 +1,61 @@
+body {
+    background-color:#1A1A1B;
+  }
+    .container {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+/* rectangle at top for decor */  
+
+.rectangle1{
+position: absolute;
+width: 739.25px;
+height: 38.76px;
+left: -213.46px;
+top: -25.96px;
+
+background: #FFDAB4;
+transform: rotate(135.5deg);
+}
+
+/* Welcome to r/IndianTeenagers */
+
+.maintext{
+    position: absolute;
+    width: 1057px;
+    height: 300px;
+    left: 48px;
+    top: 511px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 10px;
+    
+    color: #FFDAB4;
+    
+}
+
+/* Exceptional Posts */
+
+.exceptionalpostsbutton{
+position: absolute;
+width: 241px;
+height: 35px;
+left: 1016px;
+top: 48px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 35px;
+
+color: #FFDAB4;
+}
