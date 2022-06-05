@@ -1,0 +1,176 @@
+html body {
+    background-color:#1A1A1B;
+    text-align: center; 
+    margin: none;
+    height: 100%;
+}
+
+.section{
+    padding: 20px;
+}
+
+
+/* rectangle at top for decor */  
+
+.rectangle1{
+    position: absolute;
+    width: 739.25px;
+    height: 38.76px;
+    left: -223.46px;
+    top: -25.96px;
+
+    background: #FFDAB4;
+    transform: rotate(135.5deg);
+}
+
+.rectangle2{
+    position: absolute;
+    width: 739.25px;
+    height: 38.76px;
+    left: -133.46px;
+    top: -25.96px;
+
+    background: #FFDAB4;
+    transform: rotate(135.5deg);
+}
+
+
+/* Exceptional Posts Navbar*/
+
+.exceptionalpostsbutton{
+    position: relative;
+    text-align: top;
+    left: 380px;
+    top: 30px;
+    padding: 12px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 5px;
+
+    color: #FFDAB4;
+    text-decoration: none;
+}
+
+/* Scoial Media Navbar */
+
+.socialmediabutton{
+    position: relative;
+    text-align: top;
+    left: 380px;
+    top: 30px;
+    padding: 12px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 5px;
+    
+    color: #FFDAB4;
+    text-decoration: none;
+}
+
+/* Community Navbar */
+
+.communitybutton{
+    position: relative;
+    text-align: top;
+    left: 380px;
+    top: 30px;
+    padding: 12px;
+        
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 5px;
+        
+    color: #FFDAB4;
+    text-decoration: none;
+}
+
+.girl{
+    position: absolute;
+    width: 400px;
+    height: 638px;
+    left: 940px;
+    top: 165px;
+
+    background: url(../public/images/girl.png);
+    background-repeat: no-repeat;
+}
+/* Welcome to r/IndianTeenagers */
+
+.maintext{
+    position: absolute;
+    text-align: left;
+    left: 45px;
+    top: 435px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 10px;
+    
+    color: #FFDAB4;
+    
+}
+
+/* Exceptional Posts */
+
+
+.exceptionalpost{
+    background-color: #FFDAB4;
+    align-items: center;
+    position: relative;
+    border-radius: 10px;
+    padding: 320px;
+    top: 690px;  
+
+}
+
+.roundedboxviews{
+    position: absolute;
+    width: 540px;
+    height: 200px;
+    left: 60px;
+    top: 130px;
+
+    background: #1A1A1B;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px 50px 0px 0px;
+
+}
+
+.roundedboxmembers{
+    position: absolute;
+    width: 540px;
+    height: 200px;
+    left: 60px;
+    top: 350px;
+    
+    background: #1A1A1B;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 0px 50px 50px;
+
+}
+
+.maintext1{
+    position: absolute;
+    width: 680px;
+    height: 226px;
+    left: 700px;
+    top: 230px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 2px;
+
+    color: #1A1A1B;
+}
