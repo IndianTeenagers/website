@@ -141,7 +141,7 @@ html body {
 
 .roundedboxviews{
     position: relative;
-    width: 36%;
+    width: 560px;
     height: 200px;
     left: 60px;
     top: 75px;
@@ -154,7 +154,7 @@ html body {
 
 .roundedboxmembers{
     position: relative;
-    width: 36%;
+    width: 560px;
     height: 200px;
     left: 60px;
     top: 120px;
