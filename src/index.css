@@ -93,28 +93,13 @@ html body {
     text-decoration: none;
 }
 
-.girl{
-    position: absolute;
-    width: 400px;
-    height: 638px;
-    top: 466px;
-    position: absolute;
-    left: 65%;
-    padding: 0 50px;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-
-    background: url(../public/images/girl.png);
-    background-repeat: no-repeat;
-}
 /* Welcome to r/IndianTeenagers */
 
 .maintext{
     position: relative;
     text-align: left;
-    left: 20px;
-    top: 440px;
+    left: 25px;
+    top: -230px;
     
     font-family: 'Roboto';
     font-style: normal;
@@ -126,6 +111,17 @@ html body {
     
 }
 
+.girl{
+    position: relative;
+    width: 400px;
+    height: 638px;
+    top: 137px;
+    left: 950px;
+
+    background: url(../public/images/girl.png);
+    background-repeat: no-repeat;
+}
+
 /* ------------------------ Stats Posts ------------------------ */
 
 
@@ -135,7 +131,7 @@ html body {
     position: relative;
     border-radius: 10px;
     padding: 36px;
-    top: 16px;  
+    top: 90px;  
 
 }
 
@@ -221,14 +217,14 @@ html body {
 
 .maintext3{
     position: relative;
-    left: 200px;
-    top: -70px;
+    left: 280px;
+    top: 20px;
     
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-    font-size: 128px;
-    line-height: 150px;
+    font-size: 118px;
+    line-height: 120px;
     
     color: #FFDAB4;
 }
@@ -327,3 +323,99 @@ html body {
 
 }
 
+.twitterblock1{
+    position: relative;
+    width: 470px;
+    height: 170px;
+    left: 160px;
+    top: 180px;
+
+    background: #1A1A1B;
+    border-radius: 15px;
+}
+
+.twitterblock2{
+    position: relative;
+    width: 200px;
+    height: 170px;
+    left: 0px;
+    top: 0px;
+
+    background: #FFDAB4;
+    border-radius: 15px 400px 0px 15px;
+}
+
+.instagramblock1{
+    position: relative;
+    width: 470px;
+    height: 170px;
+    left: 760px;
+    top: 10px;
+
+    background: #1A1A1B;
+    border-radius: 15px;
+}
+
+.instagramblock2{
+    position: relative;
+    width: 200px;
+    height: 170px;
+    left: 0px;
+    top: 0px;
+
+    background: #FFDAB4;
+    border-radius: 15px 400px 0px 15px;
+}
+
+.youtubeblock1{
+    position: relative;
+    width: 470px;
+    height: 170px;
+    left: 450px;
+    top: 60px;
+
+    background: #1A1A1B;
+    border-radius: 15px;
+}
+
+.youtubeblock2{
+    position: relative;
+    width: 200px;
+    height: 170px;
+    left: 0px;
+    top: 0px;
+
+    background: #FFDAB4;
+    border-radius: 15px 400px 0px 15px;
+}
+
+/* ------------------------ Community ------------------------ */
+
+
+.backgroundcommunity{
+    box-sizing: border-box;
+
+    position: relative;
+    width: 1480px;
+    height: 700px;
+    left: 0px;
+    top: 315px;
+
+    background: #FFDAB4;
+    border: 40px solid #ffb770;
+    border-radius: 172px;
+}
+
+.communitytext{
+    position: absolute;
+    left: 400px;
+    top: -80px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 128px;
+    line-height: 150px;
+
+    color: #1A1A1B;
+}
