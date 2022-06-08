@@ -232,3 +232,98 @@ html body {
     
     color: #FFDAB4;
 }
+
+.exceptionalposts1{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    left: 50px;
+    top: -40px;
+
+    background: #FFDAB4;
+    border-radius: 25px;
+}
+
+.exceptionalposts2{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    left: 500px;
+    top: 0px;
+
+    background: #FFDAB4;
+    border-radius: 25px;
+}
+
+.exceptionalposts3{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    left: 500px;
+    top: 0px;
+
+    background: #FFDAB4;
+    border-radius: 25px;
+}
+
+.exceptionalpostsreadmorebox{
+    position: relative;
+    width: 1415px;
+    height: 97px;
+    left: 0px;
+    top: 30px;
+
+    background: #FFDAB4;
+    border-radius: 25px;
+}
+
+.exceptionalpostsreadmoretext{
+    position: relative;
+    text-decoration: none;
+    left: 560px;
+    top: 15px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    
+    color: #1A1A1B;
+}
+
+/* ------------------------ Social Media ------------------------ */
+
+.backgroundforsocialmedia{
+    box-sizing: border-box;
+
+    position: relative;
+    width: 1520px;
+    height: 720px;
+    left: 0px;
+    top: 150px;
+    
+    background: url(../public/images/socialbg.gif);
+    background-repeat: none;
+    background-size: cover;
+    border: 50px solid #1A1A1B;
+    border-radius: 143px;
+}
+
+.officialsocialmediatext{
+    position: absolute;
+    width: 1888px;
+    height: 113px;
+    left: 30px;
+    top: -50px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 112px;
+
+    color: #1A1A1B;
+
+}
+
