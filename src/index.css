@@ -1,6 +1,11 @@
-html body {
+html{
+    scroll-behavior: smooth;
+}
+
+body {
     background-color:#1A1A1B;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 .section{
@@ -289,7 +294,10 @@ html body {
 }
 
 /* ------------------------ Social Media ------------------------ */
-
+.officialsocialmedialinks{
+    position: relative;
+    top: 150px;
+}
 .backgroundforsocialmedia{
     box-sizing: border-box;
 
@@ -297,7 +305,7 @@ html body {
     width: 1520px;
     height: 720px;
     left: 0px;
-    top: 150px;
+    top: 0px;
     
     background: url(../public/images/socialbg.gif);
     background-repeat: none;
@@ -391,15 +399,18 @@ html body {
 
 /* ------------------------ Community ------------------------ */
 
-
+.communitylinks{
+    position: relative;
+    top: 315px;
+}
 .backgroundcommunity{
     box-sizing: border-box;
 
     position: relative;
     width: 1480px;
-    height: 700px;
+    height: 650px;
     left: 0px;
-    top: 315px;
+    top: 0px;
 
     background: #FFDAB4;
     border: 40px solid #ffb770;
