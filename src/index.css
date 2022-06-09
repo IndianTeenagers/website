@@ -1,6 +1,11 @@
-html body {
+html{
+    scroll-behavior: smooth;
+}
+
+body {
     background-color:#1A1A1B;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 .section{
@@ -93,28 +98,13 @@ html body {
     text-decoration: none;
 }
 
-.girl{
-    position: absolute;
-    width: 400px;
-    height: 638px;
-    top: 466px;
-    position: absolute;
-    left: 65%;
-    padding: 0 50px;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-
-    background: url(../public/images/girl.png);
-    background-repeat: no-repeat;
-}
 /* Welcome to r/IndianTeenagers */
 
 .maintext{
     position: relative;
     text-align: left;
-    left: 20px;
-    top: 440px;
+    left: 25px;
+    top: -230px;
     
     font-family: 'Roboto';
     font-style: normal;
@@ -126,6 +116,17 @@ html body {
     
 }
 
+.girl{
+    position: relative;
+    width: 400px;
+    height: 638px;
+    top: 137px;
+    left: 950px;
+
+    background: url(../public/images/girl.png);
+    background-repeat: no-repeat;
+}
+
 /* ------------------------ Stats Posts ------------------------ */
 
 
@@ -135,7 +136,7 @@ html body {
     position: relative;
     border-radius: 10px;
     padding: 36px;
-    top: 16px;  
+    top: 90px;  
 
 }
 
@@ -221,14 +222,211 @@ html body {
 
 .maintext3{
     position: relative;
-    left: 200px;
-    top: -70px;
+    left: 280px;
+    top: 20px;
     
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 118px;
+    line-height: 120px;
+    
+    color: #FFDAB4;
+}
+
+.exceptionalposts1{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    left: 50px;
+    top: -40px;
+
+    background: #FFDAB4;
+    border-radius: 25px;
+}
+
+.exceptionalposts2{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    left: 500px;
+    top: 0px;
+
+    background: #FFDAB4;
+    border-radius: 25px;
+}
+
+.exceptionalposts3{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    left: 500px;
+    top: 0px;
+
+    background: #FFDAB4;
+    border-radius: 25px;
+}
+
+.exceptionalpostsreadmorebox{
+    position: relative;
+    width: 1415px;
+    height: 97px;
+    left: 0px;
+    top: 30px;
+
+    background: #FFDAB4;
+    border-radius: 25px;
+}
+
+.exceptionalpostsreadmoretext{
+    position: relative;
+    text-decoration: none;
+    left: 560px;
+    top: 15px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    
+    color: #1A1A1B;
+}
+
+/* ------------------------ Social Media ------------------------ */
+.officialsocialmedialinks{
+    position: relative;
+    top: 150px;
+}
+.backgroundforsocialmedia{
+    box-sizing: border-box;
+
+    position: relative;
+    width: 1520px;
+    height: 720px;
+    left: 0px;
+    top: 0px;
+    
+    background: url(../public/images/socialbg.gif);
+    background-repeat: none;
+    background-size: cover;
+    border: 50px solid #1A1A1B;
+    border-radius: 143px;
+}
+
+.officialsocialmediatext{
+    position: absolute;
+    width: 1888px;
+    height: 113px;
+    left: 30px;
+    top: -50px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 112px;
+
+    color: #1A1A1B;
+
+}
+
+.twitterblock1{
+    position: relative;
+    width: 470px;
+    height: 170px;
+    left: 160px;
+    top: 180px;
+
+    background: #1A1A1B;
+    border-radius: 15px;
+}
+
+.twitterblock2{
+    position: relative;
+    width: 200px;
+    height: 170px;
+    left: 0px;
+    top: 0px;
+
+    background: #FFDAB4;
+    border-radius: 15px 400px 0px 15px;
+}
+
+.instagramblock1{
+    position: relative;
+    width: 470px;
+    height: 170px;
+    left: 760px;
+    top: 10px;
+
+    background: #1A1A1B;
+    border-radius: 15px;
+}
+
+.instagramblock2{
+    position: relative;
+    width: 200px;
+    height: 170px;
+    left: 0px;
+    top: 0px;
+
+    background: #FFDAB4;
+    border-radius: 15px 400px 0px 15px;
+}
+
+.youtubeblock1{
+    position: relative;
+    width: 470px;
+    height: 170px;
+    left: 450px;
+    top: 60px;
+
+    background: #1A1A1B;
+    border-radius: 15px;
+}
+
+.youtubeblock2{
+    position: relative;
+    width: 200px;
+    height: 170px;
+    left: 0px;
+    top: 0px;
+
+    background: #FFDAB4;
+    border-radius: 15px 400px 0px 15px;
+}
+
+/* ------------------------ Community ------------------------ */
+
+.communitylinks{
+    position: relative;
+    top: 315px;
+}
+.backgroundcommunity{
+    box-sizing: border-box;
+
+    position: relative;
+    width: 1480px;
+    height: 650px;
+    left: 0px;
+    top: 0px;
+
+    background: #FFDAB4;
+    border: 40px solid #ffb770;
+    border-radius: 172px;
+}
+
+.communitytext{
+    position: absolute;
+    left: 400px;
+    top: -80px;
+
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 128px;
     line-height: 150px;
-    
-    color: #FFDAB4;
+
+    color: #1A1A1B;
 }
