@@ -698,8 +698,8 @@ body {
     .exceptionalpostsreadmoretext{
         position: relative;
         text-decoration: none;
-        left: 65px;
-        top: 7  px;
+        left: 70px;
+        top: 7px;
         
         font-family: 'Roboto';
         font-style: normal;
@@ -720,28 +720,27 @@ body {
 
         position: relative;
         width: 340px;
-        height: 913px;
+        height: 700px;
         left: 15px;
         top: 0px;
         
         background: url(../public/images/socialbg.png);
-        background-size: cover;
         border: 25px solid #1A1A1B;
-        border-radius: 5px;
+        border-radius: 60px;
     }
 
     .officialsocialmediatext{
         position: absolute;
-        width: 1888px;
+        width: 188px;
         height: 113px;
-        left: 30px;
-        top: -50px;
+        left: 10px;
+        top: 10px;
 
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 700;
-        font-size: 96px;
-        line-height: 112px;
+        font-size: 36px;
+        line-height: 10px;
 
         color: #1A1A1B;
 
@@ -749,9 +748,9 @@ body {
 
     .twitterblock1{
         position: relative;
-        width: 470px;
-        height: 170px;
-        left: 160px;
+        width: 260px;
+        height: 110px;
+        left: 10px;
         top: 180px;
 
         background: #1A1A1B;
@@ -761,7 +760,7 @@ body {
     .twitterblock2{
         position: relative;
         width: 200px;
-        height: 170px;
+        height: 110px;
         left: 0px;
         top: 0px;
 
@@ -771,10 +770,10 @@ body {
 
     .instagramblock1{
         position: relative;
-        width: 470px;
-        height: 170px;
-        left: 760px;
-        top: 10px;
+        width: 260px;
+        height: 110px;
+        left: 10px;
+        top: 200px;
 
         background: #1A1A1B;
         border-radius: 15px;
@@ -783,7 +782,7 @@ body {
     .instagramblock2{
         position: relative;
         width: 200px;
-        height: 170px;
+        height: 110px;
         left: 0px;
         top: 0px;
 
@@ -793,10 +792,10 @@ body {
 
     .youtubeblock1{
         position: relative;
-        width: 470px;
-        height: 170px;
-        left: 450px;
-        top: 60px;
+        width: 260px;
+        height: 110px;
+        left: 10px;
+        top: 220px;
 
         background: #1A1A1B;
         border-radius: 15px;
@@ -805,7 +804,7 @@ body {
     .youtubeblock2{
         position: relative;
         width: 200px;
-        height: 170px;
+        height: 110px;
         left: 0px;
         top: 0px;
 
@@ -813,4 +812,37 @@ body {
         border-radius: 15px 400px 0px 15px;
     }
 
+    /* ------------------------ Community ------------------------ */
+
+    .communitylinks{
+        position: relative;
+        top: 500px;
+    }
+    .backgroundcommunity{
+        box-sizing: border-box;
+
+        position: relative;
+        width: 360px;
+        height: 650px;
+        left: 0px;
+        top: 0px;
+    
+        background: #FFDAB4;
+        border: 0px solid #ffb770;
+        border-radius: 10px;
+    }
+
+    .communitytext{
+        position: absolute;
+        left: 40px;
+        top: -80px;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 0px;
+
+        color: #1A1A1B;
+    }
 }
